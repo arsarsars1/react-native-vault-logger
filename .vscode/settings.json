@@ -1,0 +1,11 @@
+{
+  "java.import.exclusions": [
+    "**/node_modules/**"
+  ],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
+}

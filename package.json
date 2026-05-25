@@ -1,6 +1,6 @@
 {
   "name": "react-native-vault-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A secure, encrypted local vault logger for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
