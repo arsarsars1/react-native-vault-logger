@@ -4,6 +4,10 @@
   "description": "A secure, encrypted local vault logger for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
