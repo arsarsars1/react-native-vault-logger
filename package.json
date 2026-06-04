@@ -1,17 +1,36 @@
 {
   "name": "react-native-vault-logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A secure, encrypted local vault logger for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
+    "src",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
+  "keywords": [
+    "react-native",
+    "logger",
+    "crash",
+    "error",
+    "encryption",
+    "async-storage",
+    "vault",
+    "crash-reporting"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsarsars1/react-native-vault-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arsarsars1/react-native-vault-logger/issues"
+  },
+  "homepage": "https://github.com/arsarsars1/react-native-vault-logger#readme",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.23.1",
     "crypto-js": "^4.2.0"
@@ -25,6 +44,5 @@
     "react": "*",
     "react-native": "*"
   },
-  "author": "",
   "license": "MIT"
 }
