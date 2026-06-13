@@ -4,13 +4,6 @@ import App from '../App';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
 import { CrashLogService } from 'react-native-vault-logger';
 
-// Mock AsyncStorage
-jest.mock('@react-native-async-storage/async-storage', () => ({
-  setItem: jest.fn(),
-  getItem: jest.fn(() => Promise.resolve(null)),
-  removeItem: jest.fn(),
-}));
-
 describe('App Buttons', () => {
   beforeEach(async () => {
     // Clear logs before each test
